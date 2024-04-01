@@ -1,4 +1,4 @@
-# Behind-the-Scenes Readme
-This file will be the landing page for the GitHub repository, but will not be surfaced in the GitBook. Use it to outline the lesson plan and provide any other instructor-facing information. Note that this page will not actually be private or secure; it is simply separated from the GitBook.
+# Storing Information with Databases
 
-[Click here for information about this template repository.](BOOKTEMPLATEREADME.md)
+## Description
+In this workshop, students will explore the fundamental concepts behind databases, and then practice creating and updating a database of their own. They will learn about relational databases, SQL, NoSQL, and the importance and impact of databases in modern society. By the end of the workshop, each student will have access to their own database, and will be able to interact with it in multiple ways.
