@@ -1,8 +1,7 @@
 {
   "structure": {
-    "readme": "StudentDesc.md",
+    "readme": "BOOKREADME.md",
     "summary": "SUMMARY.md"
   },
-  "title": "Site Title",
-  "plugins": ["toggle-chapters"]
+  "title": "Storing Information with Databases"
 }
