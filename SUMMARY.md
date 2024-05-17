@@ -1,2 +1,3 @@
 - [Storing Information with Databases](BOOKREADME.md)
+- [MongoDB Atlas Account Registration](MongoDbAtlasRegistration.md)
 - [Follow-Along Activity](FollowAlong.md)

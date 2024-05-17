@@ -13,8 +13,7 @@ Here are some general guidelines for the overall flow of the camp:
 | Presentation | 15m |
 | Interactive Activity | 10m |
 | Break | 10m |
-| Follow-Along | 30m |
-| Self-Paced Work | 10m |
+| Follow-Along | 40m |
 | Gimkit | 10m |
 | Conclusion | 5m |
 
@@ -39,28 +38,45 @@ Here are some tips to ensure a successful run:
 The entirety of the camp flows through the [PowerPoint Presentation](Databases.pptx).
 
 ### Icebreaker
-Have students submit movie reviews using a web application powered by MongoDB.
+Have students submit movie reviews using a web application powered by MongoDB. Once all students have added reviews, they will introduce themselves.
 
 #### Setup
+The URL for the Movie Reviews site is [https://movie-reviews-62s1.onrender.com/](https://movie-reviews-62s1.onrender.com/) - students can access this by clicking the link from the [camp homepage](BOOKREADME.md). Make sure to visit the site _before_ the camp begins - it usually takes a minute to get up and running.
 
+If there are reviews, you can delete them by clicking on the "Action" table header, entering "allowthis" into the prompt, and clicking the "Delete" button next to reviews. Add one or two reviews in there to start.
+
+Additionally, log into [MongoDB](https://cloud.mongodb.com/account/login) using these credentials:
 
 - Username: **techoutreachinstructor@gmail.com**
 - Password: **Tech0utreach!**
 
+Under the **Clusters** section, click the **Browse collections** box and select the **reviews** collection in the **movie_reviews** database. This is where all the reviews should appear, and they can be manually modified from here.
+
 #### Facilitation
+Start by directing the students to the [Movie Reviews Site](https://movie-reviews-62s1.onrender.com/). Have each of them submit a review, making sure they enter their full name as the reviewer. If they have never seen a movie, they are welcome to review anything else.
 
+Once a good number of reviews have been added, go around the room and have each student introduce themselves with their name, grade, school, and which movie they reviewed.
 
+After all of the students have been introduced, head to the Atlas UI to show what the data looks like behind the scenes - show how it can be [viewed, modified, and filtered](https://www.mongodb.com/docs/atlas/atlas-ui/documents/). Don't worry about explaining it too much - the presentation is next!
 
 ### Presentation
-After students have warmed up with the icebreaker, it's time for the presentation portion of the [PowerPoint](Databases.pptx). These slides contain a brief introduction to data and databases, including SQL and NoSQL design approaches.
+After students have warmed up with the icebreaker, it's time for the presentation portion of the [PowerPoint](Databases.pptx). These slides contain a brief introduction to data and databases, including SQL and NoSQL design approaches. There are notes with talking points in the slides.
 
 ### Interactive Activity: SQLBolt
+Direct students to the [camp homepage](BOOKREADME.md) where they can find a link to [SQLBolt](https://sqlbolt.com). Encourage them to read through the guides, and attempt to complete as many lessons as possible before the break.
 
 ### Follow-Along
-Walk through the [Follow-Along Activity](FollowAlong.md) with the students.
+Walk through the [Follow-Along Activity](FollowAlong.md) with the students. They should create and deploy their own cluster in MongoDB Atlas, and then connect to it through a web application.
 
-### Self-Paced Work
-Introduce the [Self-Paced Work](SelfPacedWork.md), and assist students as they work through it.
+#### Starter Project: Web Application
+[Click here to remix the web application project on Glitch.](https://glitch.com/edit/#!/remix/posts-db)
+
+#### Back-up Connection String
+If a student is _really_ struggling to follow along with the activity, this connection string can be shared with them. Replace `<username>` with `ezekieljohnson`, and `<password>` with `eM4OPS9FdgsAVLpV` in this string:
+
+```
+mongodb+srv://<username>:<password>@cluster0.6haikte.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+```
 
 ### Gimkit
 [Gimkit](https://gimkit.com/) is a fun formative assessment tool that's similar to Blooket, but with some different game modes. Just like Blooket, there are a variety of modes where the students compete against each other in different ways. Answering questions correctly helps them achieve more success in each game.
@@ -77,7 +93,6 @@ When setting up the game, try to time it so that it ends just a couple minutes b
 1. Find the [**Databases** question set](https://www.gimkit.com/view/66464769fa43d1810473acde)
     - If it appears in the list, click the green "Play Live" button
     - From the set page, click the "Play Live" link on the left side
-1. Once logged into Gimkit, go to the [question set](https://www.gimkit.com/view/66464769fa43d1810473acde)
 1. Select one of the freely-available game modes
 1. Adjust the time as needed, but keep everything else the default
 1. Click the **Continue** button
