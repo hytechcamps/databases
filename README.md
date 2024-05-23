@@ -78,6 +78,12 @@ If a student is _really_ struggling to follow along with the activity, this conn
 mongodb+srv://<username>:<password>@cluster0.6haikte.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 ```
 
+If a student does use this connection string, they can still create their own personal database within the cluster. In the **server.js** file, on line **25**, they can change the `dbsettings.dbName` property to point to something new - like `"posts-alice"` or `"posts-bob"`. It should look something like this:
+
+```js
+dbSettings.dbName = "posts-student-name-here";
+```
+
 ### Gimkit
 [Gimkit](https://gimkit.com/) is a fun formative assessment tool that's similar to Blooket, but with some different game modes. Just like Blooket, there are a variety of modes where the students compete against each other in different ways. Answering questions correctly helps them achieve more success in each game.
 
