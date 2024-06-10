@@ -47,7 +47,7 @@ That should be it - you should have your full connection string!
 ### After the Initial Setup
 If you need to get the connection string after the cluster's initial deployment, the steps will be a little different:
 
-1. Click the "Connect" button fro, the **Overview** section in Atlas:
+1. Click the "Connect" button from the **Overview** section in Atlas:
 
   ![](Assets/ConnectFromOverview.png)
 
